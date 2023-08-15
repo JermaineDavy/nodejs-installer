@@ -56,8 +56,8 @@ if [ "$MACHINE" == "linux" ] && [ "$MACHINE" == "darwin" ]; then
     echo "Unable to perform installation on this device of type '${MACHINE_NAME}'"
 fi
 
-LTS_VERSION="18.16.1"
-LATEST_VERSION="20.4.0"
+LTS_VERSION="18.17.1"
+LATEST_VERSION="20.5.1"
 VERSION_PROMPT="Please select which version to install (Default 1): "
 VERSION_OPTIONS=(
     "$LTS_VERSION (LTS - Recommended)"
